@@ -1,0 +1,57 @@
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略敏感文件扩展名
+*.key
+*.pem
+*.cert
+*.crt
+*.secret
+.env
+*.env.*
+config/secrets.yml
+secrets.json
+
+# 忽略日志文件
+*.log
+logs/
+
+# 忽略临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 忽略备份文件
+*.bak
+*.backup
+*~
+
+# 忽略特定的敏感目录
+private/
+credentials/
+secrets/
+
+# 忽略可能包含敏感信息的文档
+confidential*/
+private*/
+Personal*/
+personal*/
+
+# 忽略数据库文件
+*.db
+*.sqlite
+*.mdb
+
+# 忽略压缩包中的敏感内容
+*.zip
+*.rar
+*.7z
